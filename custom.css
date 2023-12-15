@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.navlist {
+    display: flex;
+}
+.navlist a {
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+#menu-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #00aaff 0%, #0068d7 28.53%, #0031e1 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section {
+    padding: 0 19%;
+}
+.hero-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 35px;
+}
+.hero-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 15px;
+}
+.hero-text p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 35px;
+}
+.hero-img img {
+    width: 475px;
+    height: auto;
+}
+.hero-text a {
+    display: inline-block;
+    color: #0068d7;
+    background: #ffffff;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all .55s ease;
+}
+.hero-text a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+    color: rgb(255, 255, 255);
+}
+.hero-text a.ctaa i {
+    color: #0068d7;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.hero-text a.ctaa i:hover {
+    color: #ffffff;
+}
+.icons {
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+.icons i {
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+.icons i:hover {
+    color: rgb(126, 126, 126);
+    transform: translateY(-5px);
+}
+.scroll-down {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scroll-down i {
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: all .50s ease;
+}
+.scroll-down i:hover {
+    transform:  translateY(-5px);
+}
+
+@media (max-width: 1920px) {
+    header {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .icons {
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scroll-down {
+        right: 3%;
+        transition: .2s;
+    }
+}
+@media (max-width: 1460px) {
+    section {
+        padding: 0 12%;
+        transition: .2s;
+    }
+}
