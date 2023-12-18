@@ -1,3 +1,4 @@
+/* CSS : index.html */
 *{
     padding: 0;
     margin: 0;
@@ -170,4 +171,71 @@ section {
         padding: 0 12%;
         transition: .2s;
     }
+}
+
+/* CSS : member.html */
+.wrapper {
+    width: 475px;
+    height: 600px;
+    padding: 2rem 1rem;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.wrapper input {
+    font-size: 13px;
+    width: 90%;
+    outline: none;
+    border: 1px solid #ffffff;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background: #dbdbdb;
+
+}
+.wrapper button {
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #ffffff;
+    cursor: pointer;
+    background: rgb(17, 107, 143);
+}
+.terms {
+    margin-top: 5px;
+}
+.terms input {
+    margin-top: 3px;
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+.terms label {
+    font-size: 14px;
+}
+.terms a {
+    color: #0068d7;
+    text-decoration: none;
+}
+.wrapper button:hover {
+    background: rgb(17, 107, 143, 0.877);
+}
+.wrapper input:focus {
+    border : 1px solid #ebebeb;
+}
+.member {
+    font-size: 13px;
+    margin-top: 20px;
+    color: #000000;
 }
