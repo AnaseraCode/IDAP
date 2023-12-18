@@ -35,7 +35,11 @@ header {
     transition: all .55s ease;
 }
 .navlist a:hover {
-    border-bottom: 2px solid white;
+    display: inline-block;
+    color: rgb(126, 126, 126);
+    border-radius: 25px;
+    background: transparent;
+    transform: translateX(8px);
 }
 #menu-icon {
     color: rgb(255, 255, 255);
