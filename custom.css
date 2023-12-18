@@ -73,7 +73,7 @@ section {
 .hero-text h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
-    line-height: 1;
+    line-height: 1.125;
     color: white;
     margin-bottom: 15px;
 }
@@ -175,34 +175,36 @@ section {
 
 /* CSS : member.html */
 .wrapper {
-    width: 475px;
-    height: 600px;
+    position: relative;
+    left: 175px;
+    width: 450px;
+    height: 550px;
     padding: 2rem 1rem;
     margin: 100px auto;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.35);
 }
 .wrapper h1 {
-    font-size: 30px;
+    font-size: 35px;
     color: #000000;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .wrapper input {
     font-size: 13px;
     width: 90%;
     outline: none;
     border: 1px solid #ffffff;
-    padding: 12px 20px;
+    padding: 13px 20px;
     margin-bottom: 15px;
     border-radius: 25px;
-    background: #dbdbdb;
+    background: #e9e9e9;
 
 }
 .wrapper button {
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 12px;
     padding: 10px 0;
     border-radius: 25px;
     outline: none;
@@ -210,10 +212,10 @@ section {
     width: 90%;
     color: #ffffff;
     cursor: pointer;
-    background: rgb(17, 107, 143);
+    background: rgb(2, 78, 244);
 }
 .terms {
-    margin-top: 5px;
+    margin-top: 1px;
 }
 .terms input {
     margin-top: 3px;
@@ -222,20 +224,20 @@ section {
     cursor: pointer;
 }
 .terms label {
-    font-size: 14px;
+    font-size: 13px;
 }
 .terms a {
     color: #0068d7;
     text-decoration: none;
 }
 .wrapper button:hover {
-    background: rgb(17, 107, 143, 0.877);
+    background: #0068d78e;
 }
 .wrapper input:focus {
     border : 1px solid #ebebeb;
 }
 .member {
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 12px;
     color: #000000;
 }
