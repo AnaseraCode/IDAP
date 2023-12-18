@@ -86,6 +86,8 @@ section {
 .hero-img img {
     width: 475px;
     height: auto;
+    position: relative;
+    left: 100px;
 }
 .hero-text a {
     display: inline-block;
