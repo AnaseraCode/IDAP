@@ -26,18 +26,19 @@ header {
 }
 .navlist {
     display: flex;
+    letter-spacing: 1px;
 }
 .navlist a {
     color: rgb(255, 255, 255);
     margin-left: 60px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 550;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
 .navlist a:hover {
     display: inline-block;
-    color: rgb(126, 126, 126);
+    color: #b5b5b5;
     border-radius: 25px;
     background: transparent;
     transform: translateX(8px);
@@ -130,7 +131,7 @@ section {
     transition: all .50s ease;
 }
 .icons i:hover {
-    color: rgb(126, 126, 126);
+    color: #b5b5b5;
     transform: translateY(-5px);
 }
 .scroll-down {
@@ -150,6 +151,7 @@ section {
 }
 .scroll-down i:hover {
     transform:  translateY(-5px);
+    color: #024ef4;
 }
 
 @media (max-width: 1920px) {
@@ -176,15 +178,15 @@ section {
 /* CSS : member.html */
 .wrapper {
     position: relative;
-    left: 175px;
+    left: 225px;
     width: 450px;
     height: 550px;
     padding: 2rem 1rem;
-    margin: 100px auto;
+    margin: 100px;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.35);
 }
 .wrapper h1 {
     font-size: 35px;
@@ -200,7 +202,6 @@ section {
     margin-bottom: 15px;
     border-radius: 25px;
     background: #e9e9e9;
-
 }
 .wrapper button {
     font-size: 15px;
@@ -212,10 +213,28 @@ section {
     width: 90%;
     color: #ffffff;
     cursor: pointer;
-    background: rgb(2, 78, 244);
+    background: #024ef4;
+}
+.hero-text-member {
+    margin-left: 45px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-text-member h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero-text-member h1 {
+    font-size: 60px;
+    line-height: 1.125;
+}
+.hero-text-member p {
+    font-size: 16px;
+    line-height: 1.9;
 }
 .terms {
-    margin-top: 1px;
+    margin-top: -5px;
 }
 .terms input {
     margin-top: 3px;
@@ -241,5 +260,105 @@ section {
     margin-top: 10px;
     color: #000000;
 }
+.icons-member {
+    position: absolute;
+    top: 50%;
+    right: 0.1px;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+.icons-member i {
+    margin: 26px 0;
+    font-size: 20px;
+    display: block;
+    line-height: 20px;
+    color: #ffffff;
+}
+
 
 /* CSS : pricelist.html */
+.card-list {
+    background: linear-gradient(245.59deg, #00aaff 0%, #0068d7 28.53%, #0031e1 75.52%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pricing-card {
+    flex: 1;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #ffffff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #000000;
+    transition: .3s linear;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.35);
+}
+.pricing-card-header {
+    background-color: #75baff;
+    color:#ffffff;
+    padding: 12px 30px;
+    border-radius: 0 0 0 0;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 550;
+    transition: .4s linear;
+}
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 25em #75baff;
+    color: #75baff;
+    background-color: #ffffff;
+}
+.price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 615;
+    color: #024ef4;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+.price sup, .price span {
+    font-size: 15.5px;
+    font-weight: 700;
+}
+.price .special {
+    display: none;
+}
+.pricing-card:hover, .pricing-card:hover .price {
+    color: #ffffff;
+}
+.pricing-card li {
+    font-size: 17.5px;
+    padding: 5px 0;
+}
+.pricing-card a {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #75baff;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+.pricing-card a:hover {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #75baff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+.icons-pricelist {
+    position: absolute;
+    top: 50%;
+    left: 0.1px;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+.icons-pricelist i {
+    margin: 26px 0;
+    font-size: 20px;
+    display: block;
+    line-height: 20px;
+    color: #ffffff;
+}
