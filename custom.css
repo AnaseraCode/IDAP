@@ -282,6 +282,9 @@ section {
     cursor: pointer;
     background: #024ef4;
 }
+.wrapper button a {
+    color: #ffffff;
+}
 .hero-text-member {
     margin-left: 45px;
     color: #ffffff;
@@ -342,6 +345,58 @@ section {
     color: #ffffff;
 }
 
+/* CSS : pros-member.html */
+.hero-text-prosmem {
+    position: relative;
+    left: 250px;
+}
+.hero-text-prosmem h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 35px;
+}
+.hero-text-prosmem h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 1.125;
+    color: white;
+    margin-bottom: 15px;
+}
+.hero-text-prosmem p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 35px;
+}
+.hero-text-prosmem a {
+    display: inline-block;
+    color: #0068d7;
+    background: #ffffff;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all .55s ease;
+}
+.hero-text-prosmem a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+    color: rgb(255, 255, 255);
+}
+.hero-text-prosmem a.ctaa2 i {
+    color: #0068d7;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.hero-text-prosmem a.ctaa2 i:hover {
+    color: #ffffff;
+}
 
 /* CSS : pricelist.html */
 .card-list {
