@@ -1,0 +1,225 @@
+/* Header Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+/* Define some initial global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   }
+   
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+   }
+   
+   /* Style the navigation bar */
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+   }
+   
+   .navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+   
+   .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   /* Style the main content */
+   .content {
+    padding: 20px 0;
+   }
+   
+   .section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+   }
+   
+   .section h2 {
+    margin-bottom: 15px;
+   }
+   
+   /* Style the footer */
+   .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   }
+   
+   /* Responsive styles */
+   @media screen and (max-width: 768px) {
+    .navbar a {
+       display: block;
+       width: 100%;
+       text-align: left;
+    }
+   }
+/* Hero Responsive */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+}
+
+/* Pricelist Responsive */
+@media (max-width: 1024px) {
+    .price-table {
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+/* Scroll Down Responsive */
+@media (max-width: 1024px) {
+    .scroll-down {
+        bottom: 10px;
+    }
+}
+
+/* Icons Responsive */
+@media (max-width: 768px) {
+    .icons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* About Us & Location Responsive */
+@media (max-width: 1024px) {
+    .about-img,
+    .loc-img {
+        display: none;
+    }
+
+    .about-content,
+    .loc-content {
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+/* Reset Browser Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* Hero Responsive */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+}
+
+/* Pricelist Responsive */
+@media (max-width: 1024px) {
+    .price-table {
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+/* Scroll Down Responsive */
+@media (max-width: 1024px) {
+    .scroll-down {
+        bottom: 10px;
+    }
+}
+
+/* Icons Responsive */
+@media (max-width: 768px) {
+    .icons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* About Us & Location Responsive */
+@media (max-width: 1024px) {
+    .about-img,
+    .loc-img {
+        display: none;
+    }
+
+    .about-content,
+    .loc-content {
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
